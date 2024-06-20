@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+.container {
+    padding: 20px; /* Adjust this value as needed for more or less space */
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.resume a i{
+    color: #6d3d8a;
+}
+
+.resume {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #6d3d8a;
+}
+
+header p {
+    font-size: 1em;
+    color: #333;
+}
+
+.resume header a i {
+    font-size: 1.5em; /* Adjust the size as needed */
+}
+
+.resume header a {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 5px; /* Adjust the margin to set the distance between icons */
+}
+
+section {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #6d3d8a;
+    color: #6d3d8a;
+    padding-bottom: 5px;
+}
+
+section li a{
+    color: #16324f;
+    text-decoration: none;
+}
+section h3 {
+    font-size: 1.2em;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section p {
+    margin: 0;
+    padding: 5px 0;
+    text-align: justify;
+}
+footer {
+    font-size: small;
+    font-style: italic;
+}
+
+footer li {
+list-style-type: none;
+}
+
+.id { display: none; }
+.en.id { display: block; }
+.id.en { display: block; }
+.switch-button {
+    background-color: #6d3d8a;
+    color: #6d3d8a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 20px 0;
+}
+.switch-button:hover {
+    background-color: #6d3d8a;
+}
+
+
+.box button{
+    background-color: #6d3d8a;
+    color: white;
+    margin-left: 90%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .resume {
+        width: 90%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .box {
+        width: 90%;
+        margin: 10px;
+        padding-left: 10px;
+    }
+}
